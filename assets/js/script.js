@@ -14,6 +14,7 @@ function inserirTarefa(){
     }
     formCheck.innerHTML = novaTarefa;
     tarefa.value = '';
+    i++;
 }
 
 // adicionar.addEventListener('click', inserirTarefa());
